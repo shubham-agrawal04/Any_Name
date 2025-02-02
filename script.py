@@ -1,3 +1,7 @@
+"""
+This script generates a random maze using a recursive backtracking algorithm.
+It prints the generated maze with 'S' as the start and 'E' as the exit.
+"""
 import random
 WIDTH, HEIGHT = 10, 10
 maze = [['#'] * (2 * WIDTH + 1) for _ in range(2 * HEIGHT + 1)]
